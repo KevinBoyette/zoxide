@@ -33,7 +33,7 @@ _z_cd() {{
         if [ -n "$OLDPWD" ]; then
             _z_cd "$OLDPWD"
         else
-            echo 'zoxide: $OLDPWD is not set'
+            echo "zoxide: \$OLDPWD is not set"
             return 1
         fi
     else

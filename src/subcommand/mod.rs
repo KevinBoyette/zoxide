@@ -1,8 +1,8 @@
-mod add;
-mod import;
-mod init;
-mod query;
-mod remove;
+pub mod add;
+pub mod import;
+pub mod init;
+pub mod query;
+pub mod remove;
 
 pub use add::Add;
 pub use import::Import;
